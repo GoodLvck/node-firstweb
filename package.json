@@ -1,0 +1,30 @@
+{
+  "name": "node-firstweb",
+  "version": "1.0.0",
+  "description": "Primera web con nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodLvck/node-firstweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoodLvck/node-firstweb/issues"
+  },
+  "homepage": "https://github.com/GoodLvck/node-firstweb#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
